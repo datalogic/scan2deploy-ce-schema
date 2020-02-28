@@ -398,6 +398,16 @@
           "examples": [
             "target.zip"
           ]
+        },
+        "skip-inflation": {
+          "$id": "#/properties/deployment/properties/skip-inflation",
+          "type": "boolean",
+          "title": "Skip-Inflation Schema",
+          "description": "Boolean value indicating if the deployment archive should be inflated once downloaded",
+          "default": false,
+          "examples": [
+            false
+          ]
         }
       },
       "required": [
